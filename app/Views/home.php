@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
-</head>
-<body>
-    <h1 class="text-primary">Hi from homepage</h1>
-</body>
-</html>
+<?= $this->extend('layouts/base') ?>
+
+<?= $this->section('content') ?>
+    <h1 clas="text-light">Welcome to the Home Page</h1>
+<?= $this->endSection() ?>
