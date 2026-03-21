@@ -12,7 +12,7 @@
 </head>
 
 <body class="min-vh-100">
-<nav class="navbar navbar-expand-lg nav-custom bg-dark">
+<nav class="navbar navbar-expand-lg nav-custom bg-dark" aria-label="Primary">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="<?= base_url('images/LOGO.svg') ?>" alt="Logo"/>
