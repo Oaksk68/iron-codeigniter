@@ -1,0 +1,44 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+.fs-7 {
+    font-size: 14px !important;
+}
+
+.heading {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+@media (min-width: 992px) {
+    .heading {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .heading2 {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .sub-heading {
+        font-weight: 700px;
+        font-size: 18px;
+    }
+}

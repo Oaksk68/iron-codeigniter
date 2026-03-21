@@ -1,0 +1,201 @@
+/* hero section */
+
+.pdf-illu,
+.c_2plus_icon,
+.cpp {
+    display: none;
+}
+
+.hero-ad {
+    position: relative;
+    padding-top: 118px;
+    padding-left: 215px;
+}
+
+.hero-ad p.coming-soon {
+    color: #8F618F;
+}
+
+.hero-desc {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero-program-name {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 54px;
+}
+
+.hero-program-name span {
+    color: var(--color-lavender);
+}
+
+/* signup section */
+
+.coming-soon-text {
+    font-size: 14px;
+    color: #8F618F;
+    background: var(--color-lavender);
+    border-radius: 126px;
+    padding: 12px 16px;
+    width: max-content;
+}
+
+.pdf-illu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 8;
+}
+
+.c_2plus_icon {
+    position: absolute;
+    right: 27rem;
+    top: 5rem;
+    z-index: 9;
+}
+
+.cpp {
+    position: absolute;
+    right: 25rem;
+    top: 15rem;
+    z-index: 10;
+}
+
+.email-signup {
+    background: linear-gradient(to right, #8E608E 0%, #402640 71%, #371A34 100%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* about */
+
+.about-ironPDF {
+    position: relative;
+}
+
+.about-ironPDF div h1 {
+    position: relative;
+}
+
+.about-ironPDF div h1 span::after {
+    content: url(../images/Intersect.svg);
+    position: absolute;
+    top: -60px;
+    right: -80px;
+}
+
+.feature-item {
+    gap: 8px;
+}
+
+.feature-item p {
+    text-wrap: wrap;
+}
+
+@media(min-width: 992px) {
+    .feature-item:nth-child(2) {
+        border: 2px solid #402640;
+        border-block: 0;
+        padding: 0px 20px;
+    }
+}
+
+.feature-item .icon {
+    font-weight: 700;
+}
+
+.gradient-rectangle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url('../images/Rectangle7.svg');
+    background-repeat: no-repeat;
+    filter: blur(235px);
+    width: 100%;
+    height: 343px;
+}
+
+.normal-rectangle {
+    width: 100%;
+    height: calc(50% - 20px);
+    position: absolute;
+    opacity: 0.3;
+    background: #170617;
+    bottom: 0;
+}
+
+.rounded-cards-wrapper {
+    width: 100%;
+    margin-inline: auto;
+}
+
+@media(min-width: 768px) {
+    .rounded-cards-wrapper {
+        width: 60%;
+    }
+
+    .info div {
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+}
+
+@media(min-width: 1200px) {
+    .rounded-cards-wrapper {
+        width: 100%;
+        margin-inline: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    /* .rounded-cards-wrapper {
+        width: 100%;
+    } */
+
+    .email-signup {
+        display: block;
+        padding-left: 215px;
+        padding-block: 50px;
+    }
+
+    .info div {
+        display: flex;
+        gap: 20px;
+    }
+
+    .gradient-rectangle {
+        left: 12rem;
+        width: 1184px;
+        height: 343px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-ad {
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .pdf-illu,
+    .c_2plus_icon,
+    .cpp {
+        display: block;
+    }
+}
